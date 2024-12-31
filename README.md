@@ -1,4 +1,6 @@
 # how to upgrade and recovery router image using tftp server
+![image](https://github.com/user-attachments/assets/86f8d003-b34b-47f2-b210-a94c4651ceeb)
+
 ## HOW TO DOWNLOAD IMAGE FROM SERVER TO ROUTER ON PACKET TRACER.
 
 ## Verify Network Connectivity
@@ -50,31 +52,31 @@ Writing c2900-universalk9-mz.SPA.151-4.M4.bin...!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
-##Next, go to the TFTP server and verify if the image has been successfully copied.
+## Next, go to the TFTP server and verify if the image has been successfully copied.
  
 ![image](https://github.com/user-attachments/assets/33082437-c196-4519-b3bc-82a12b46c144)
 
-##The router's backup image is now stored on the TFTP server.
+## The router's backup image is now stored on the TFTP server.
 
 
-###Now, we need to delete the iOS image from the router. After that, we'll download the iOS image from the TFTP server to restore the backup.
+### Now, we need to delete the iOS image from the router. After that, we'll download the iOS image from the TFTP server to restore the backup.
 
-###Use the following command to delete the iOS image from the router:
+### Use the following command to delete the iOS image from the router:
 
 
 R1#delete c2900-universalk9-mz.SPA.151-4.M4.bin
 Delete filename [c2900-universalk9-mz.SPA.151-4.M4.bin]?
 Delete flash:/c2900-universalk9-mz.SPA.151-4.M4.bin? [confirm]
 
-##Now the router is without IOS image and it is on Romon  status.
+## Now the router is without IOS image and it is on Romon  status.
 
  
-##Since your router is now in Romon mode and doesn't have an iOS image, you'll need to load a new iOS image from a TFTP server. Here’s a step-by-step guide on how to proceed:
+## Since your router is now in Romon mode and doesn't have an iOS image, you'll need to load a new iOS image from a TFTP server. Here’s a step-by-step guide on how to proceed:
 
-##1. Verify Network Connectivity in Romon Mode:
+## 1. Verify Network Connectivity in Romon Mode:
 Before you can transfer the iOS image, ensure that the router can communicate with the TFTP server. First, set the router's IP configuration:
 
-##Set the router's IP address:
+## Set the router's IP address:
 
 ![image](https://github.com/user-attachments/assets/64fc568e-cfba-4864-98fc-c5ca59c26bf5)
 
