@@ -84,14 +84,14 @@ Before you can transfer the iOS image, ensure that the router can communicate wi
 
 
  
-##Once the image has been downloaded successfully, instruct the router to boot from the new iOS image.
+## Once the image has been downloaded successfully, instruct the router to boot from the new iOS image.
 
 rommon> boot flash: c2900-universalk9-mz.SPA.151-4.M4.bin
-##Then use command show version to the image you downloaded.
+## Then use command show version to the image you downloaded.
 ![image](https://github.com/user-attachments/assets/f568008a-7081-4522-9008-f0f86252bede)
 
  
-##Or show flash and see the image .
+## Or show flash and see the image .
 
  ![image](https://github.com/user-attachments/assets/d23ed051-e9fa-48c5-906f-8b929f5f6f48)
 
